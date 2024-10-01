@@ -1,0 +1,85 @@
+body{
+	background-color:pink;
+
+}
+
+a {
+    text-decoration:none;
+    font-family: Lucida Console, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    color: red;
+    background-color:purple;
+    border-radius: 5px;
+}
+a:link {
+    color: grey;
+}
+a:visited {
+    color: navy blue;
+}
+a:hover {
+    color:lightblue;
+}
+a:active {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: auto;
+}
+
+li {
+    margin: 10px;
+}
+ul.languages{
+    list-style-type:lower-roman;
+}
+
+ol.foods {
+    list-style-type: square;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th, td {
+    padding: 5px;
+    height: 5px;
+}
+th {
+    text-align: center;
+}
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+	
+    border: 10px solid black;
+    padding: 20px;
+	margin-left:20px;
+	margin-top:50px;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 20px solid black;
+	padding: 20px;
+	margin-left:280px;
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 10px solid black;
+	padding: 20px;
+	margin-left:560px;
+}

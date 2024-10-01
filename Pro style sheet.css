@@ -1,0 +1,197 @@
+body{
+	background-color:lightblue;
+
+}
+header {
+	background-color:white;
+	color:blue;
+	text-align:center;
+	padding:1px;
+	font-style: italic
+}
+nav ul {
+	background-color: gray;
+	color: blue;
+	list-style: none;
+	text-align: center;
+	
+
+}
+nav ul li {
+	display: inline;
+	margin-right: 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	padding: 15px
+}
+nav ul li a:hover {
+	background-color: white;
+	transition: .5s;
+	}
+
+	
+.contents {
+	display: flex;
+	margin: 15px;
+}
+.left {
+	width: 25%;
+	padding: 15px;
+}
+.vert-nav ul {
+	background-color: beige;
+	color: blue;
+	list-style: none;
+	text-align: center;
+
+}
+.vert-nav ul li {
+	display: block;
+	margin-right: 20px;
+}
+.vert-nav ul li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 0;
+}
+.vert-nav ul li a:hover {
+	background-color: gray;
+	}
+
+.right {
+	width: 25%;
+	background-color: beige;
+	padding: 15px;
+}
+#img {
+	border-radius: 50%;
+	padding: 20px;
+	border:none;
+	background: none;
+	width: 200px;
+	height: 300px;
+}
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+	
+    border: 10px solid black;
+    padding: 20px;
+	margin-left:20px;
+	margin-top:50px;
+}
+.health-food img{
+	width: 200px;
+	height: 200px;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 20px solid black;
+	padding: 20px;
+	margin-left:280px;
+}
+.cure img{
+	width: 200px;
+		height: 200px;
+}
+ul {
+	list-style:none;
+}
+
+
+
+.HIV img{
+	width: 1000px;
+	height: 600px;
+	background: none;
+	border:none;
+	border-radius:600;
+}
+<!-- this style for comment paege -->
+        *{
+	padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		font-family: 'Outfit';
+		background: gray;
+}
+.contact-container{
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+}
+.contact-left{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 10px;
+	
+}
+.contact-left-title h2{
+	font-weight: 600;
+	color: black;
+	font-size: 40px;
+	margin-bottom: 5px;
+	
+}
+.contact-left-title hr{
+	border: none;
+	width: 200px;
+	height: 5px;
+	background-color:gray;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.cotact-inputs{
+	width: 400px;
+	height: 500px;
+	border: none;
+	outline: none;
+	padding-left: 25px;
+	font-weight: 500;
+	color: black;
+	border-radius: 50px;
+}
+.med{
+	border-collapse:collapse;
+border:1px solid blue;
+width:60%;
+background-color: beige;
+color: black;
+margin-top:20px;
+}
+footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.fa-brands{
+	 background-color:black;
+	border-radius:50%;
+	padding:10px;
+	font-size:1em;
+	
+}
+.media{
+	width:100%;
+	height:auto;
+}
+.vid-img img,video{
+	width:250px;
+	height:auto;
+	flex-direction:row;
+	
+}
+#h3{
+	text-align:right;
+	width:25%;
+}
